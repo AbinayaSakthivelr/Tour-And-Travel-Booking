@@ -1,0 +1,1109 @@
+/* Existing CSS */
+.loginForm {
+  display: flex;
+  flex-direction: column;
+ margin-right: 300px;
+}
+
+.forgotPasswordContainer {
+  display: flex;
+  align-items: flex-end; /* Adjust alignment as needed */
+  margin-top: 10px;
+}
+
+.forgotPasswordText {
+  font-size: 25px;
+  color:Blue;
+  cursor: pointer;
+  margin-left:40px;
+  margin-bottom:40px;
+   /* Adjust margin as needed */
+}
+.link p{
+  color:rgb(14, 14, 17);
+  margin-Left:44px;
+  font-size: 30px;
+}
+
+
+.login {
+  height: calc(100vh - 10px);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+color:lime;
+  justify-content: center;
+  
+  background:
+    url("https://img.freepik.com/free-photo/flat-lay-yellow-luggage-with-copy-space_23-2148786124.jpg?w=996&t=st=1704513497~exp=1704514097~hmac=839a4c673fad2a725966c289f57e27b4b8d7e9c5b79e468076bd411611eb7edd");
+  background-size: cover;
+}
+
+
+
+
+.link p{
+  font-size: 20px;
+}
+.loginInput {
+  width: 200%;
+  height:60px;
+  padding: 10px; /* Increase the padding for more height */
+  border-radius: 26px;
+  border: 1px solid #ccc;
+}
+.loginButton {
+  width: 200%;
+  height:60px;
+  padding: 10px; /* Increase the padding for more height */
+  border-radius: 26px;
+  border: 1px solid #ccc;
+}
+.forgotPasswordForm{
+  margin-left:100px;
+  margin-bottom:20px;
+  width: 450px;
+ 
+}
+.forgotPasswordForm input{
+  height:60px;
+  
+}
+/* Register Component */
+.register {
+  height: calc(230vh - 10px);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+color:lime;
+  justify-content: center;
+  
+  background:
+    url("https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D");
+  background-size: cover;
+}
+
+
+.registerTitle {
+  font-size: 50px;
+  margin-top:130px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-right: 100px;
+}
+
+
+
+.registerForm > label {
+  margin: 10px 0;
+}
+
+.registerButton {
+  color:black;
+  width:160px;
+
+  margin-left:10px;
+   margin-top: 20px;
+   cursor: pointer;
+   background-color: rgb(13, 12, 12);
+   color: rgb(230, 224, 224);
+   padding: 10px;
+   border: none;
+   border-radius: 16px;
+   text-align: center;
+   
+ }
+
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  align-items: center;
+  
+}
+
+label {
+  margin-top: 30px;
+  font-size: 30px;
+  color:black
+}
+
+
+.registerButton:hover {
+  background-color: lime;
+}
+.registerInput[type="text"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.registerInput {
+  border-radius: 20px;
+  height: 70px ;
+  width:500px;
+  border: 3px solid #110808; /* Example border size and color */
+  /* You can adjust the width, style, and color of the border as needed */
+}
+/* Go Back Link */
+.goBackLink {
+  position: absolute;
+  top: 20px; /* Adjust this value for the desired margin-top */
+  right: 90px; 
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+.goBackButton {
+  padding: 8px;
+  background-color:rgb(6, 8, 6);
+  border: none;
+  border-radius: 19px;
+  font-size: 18px;
+  cursor: pointer;
+  height: 50px; 
+  width:200px;
+
+}
+
+.goBackButton:hover {
+  background-color:lime;
+}
+
+/*about css*/
+img {
+  float: left;
+  margin-right: 20px;
+}
+.image_container {
+  display: flex;
+  align-items: right;
+}
+.image_container img {
+  min-width: 700px; /* Set your desired minimum width */
+  min-height: 700px; /* Set your desired minimum height */
+  float: left; /* Align the image to the left */
+  margin-left: 140px;
+ 
+}
+.text-container {
+  margin-left: 80px;
+  text-align: left;
+}
+
+
+p{
+  font-size: larger;
+}
+img{
+  width: 10px;
+  min-height: auto;
+
+}
+
+.aboutTitle
+{
+  font-size: 50px;
+}
+.home {
+  background-image: url('https://images.unsplash.com/photo-1502791451862-7bd8c1df43a7?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: left;
+  min-height: 100vh;
+  font-size: 22px;
+   color:rgb(233, 221, 221);
+  font-weight:bold;
+  
+ 
+  
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  
+  background-color: black;
+  border-bottom: 1px solid rgb(13, 243, 13);
+  border-top: 1px solid rgb(20, 240, 38);
+
+  
+}
+
+.nav-items {
+  display: flex;
+  margin-left:850px;
+}
+
+.nav-items a {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #fcf7f7;
+  font-weight: bold;
+  background-color: #000000; /* Black background color */
+
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+}
+
+.dropbtn {
+  background-color:black;
+  color: #f7f4f4;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 22px;
+  height:55px;
+  width:120px;
+  
+  border: 1px solid #f1eaea; /* Add border to button */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #ece7e7;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #0e0c0c;
+  color:white;
+}
+
+/* Get Started Button */
+.get-started-button {
+  padding: 8px 16px;
+  background-color: #15ff00;
+  color: white;
+  border: black;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right:20px;
+  margin-bottom:2px;
+}
+
+/* Additional CSS */
+/* Additional CSS */
+.inline-form .form-control::placeholder {
+  text-align: left;
+  text-indent: 10px; 
+}
+
+
+
+/*about_us css*/
+.aligned-list {
+  padding-left: 50px;
+  margin-top: 50px;
+}
+
+.aligned-list div {
+  position: relative;
+  padding-left: 50px;
+margin-top: 20px;
+font-size: 19px;
+font-family: 'Arial', sans-serif; 
+}
+
+.no_point {
+  margin-bottom: 20px; 
+}
+.about {
+  font-size: xx-large;
+  color:#35cd0b;
+  font-weight: bold;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+margin-top: 3%;
+} 
+.aligned-list p{
+  font-family: 'Arial', sans-serif; 
+  font-size: 20px;
+margin-top:40px;
+margin-bottom:20px;
+
+}
+/*div tag about_us*/
+.aligned-list div::before {
+  content: "\279C"; /* Unicode right arrow character */
+  font-family: 'Arial', sans-serif; /* Specify a font that supports the arrow character */
+  position: absolute;
+  left: 0;
+  color: #1cba14; /* Change this to the color you prefer */
+  font-size: 15px; /* Adjust the size to increase the arrow's size */
+}
+
+p {
+  font-size: 49px;
+  color: #090909;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* Change this value to increase the size of the paragraph */
+}
+
+/*servicescss*//* Card Styles */
+
+/* Apply the same margin to all four sides */
+.g-4{
+  margin-top:200px ;
+
+}
+/*image1*/
+.image1 .card-text {
+  font-size: 20px;
+  margin-left:70px;
+  text-align: justify;
+}
+.image1 .card-title{
+  font-size: 25px;
+  margin-left:70px;
+  font-size: xx-large;
+  color:#0f100f;
+font-weight: bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+.image1 .card-img {
+  width: 80px;
+  height: 80px;
+  margin-left:70px;
+  margin-top:70px;
+}
+
+.card{
+  margin-top: 100px;
+  row-gap: 30px;
+  width: 550px;
+  height:300px;
+
+
+}
+/*image1*/
+.image2 .card-img{
+  margin-top: 70px;
+  width:150px;
+  height:70px;
+  margin-left:70px;
+  margin-top:70px;
+  color: #000102;
+}
+.image2 .card-title{
+  font-size: 25px;
+  margin-left:70px;
+  font-size: xx-large;
+  color:#0f100f;
+font-weight: bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image2 .card-text {
+  font-size: 20px;
+  margin-left:70px;
+  
+}
+/*image3*/
+.image3 .card-img{
+  margin-top: 70px;
+  width:80px;
+  height:80px;
+  margin-left:70px;
+  margin-top:70px;
+  color: #000102;
+}
+.image3 .card-title{
+  font-size: 25px;
+  margin-left:70px;
+  font-size: xx-large;
+  color:#0f100f;
+font-weight: bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image3 .card-text {
+  font-size: 20px;
+  margin-left:70px;
+}
+/*image 4*/
+.image4 .card-img{
+  
+  width:80px;
+  height:80px;
+  margin-left:70px;
+  margin-top:70px;
+  color: #000102;
+}
+.image4 .card-title{
+  font-size: 25px;
+  margin-left:70px;
+  font-size: xx-large;
+  color:#0f100f;
+font-weight: bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image4 .card-text {
+  font-size: 20px;
+  margin-left:70px;
+}
+.topic{
+  font-size: 50px;
+  color:#35cd0b;
+font-weight: bold;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.topic1{
+  font-size: 40px;
+  color: #090909;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+font-weight: bold;
+margin-bottom: 120px;
+}
+.image1, .image2, .image3, .image4 {
+  margin-bottom: 80px;
+  margin-inline-start: 80px;
+
+}
+/*.card:hover{
+  border-color:rgb(18, 21, 18);
+  border-radius: 40px;
+  background-color: #3da34c;
+  color:white;
+}*/
+
+.des1-paragraph {
+  margin-bottom: 90px;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: justify;
+  margin-right: 30px;
+  line-height: 1.5;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/*packages*/
+ .pack p{
+color: #0d0d0e;
+text-align: center;
+font-weight:bold ;
+font-size: 40px;
+}
+.trip h1 {
+  font-size: 45px;
+color:#35cd0b;
+font-weight: bold;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.tripcard {
+  display: flex;
+  justify-content: space-between;
+  margin-top:56px;
+}
+.t-card {
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 5px 25px 2px rgba(247, 247, 247, 0.11);
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 1rem 0.8rem;
+}
+.t-image {
+  height: 200px;
+  overflow: hidden;
+  border-radius: 7px;
+}
+
+.t-image img {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease-in-out;
+  border-radius: 7px;
+}
+.t-image:hover img {
+  transform: scale(1.3);
+}
+/*text*/
+
+.t-card p {
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   /* Set your desired font size */
+}
+/*$*/
+.tripcard h4{
+  font-size:40px; 
+  margin-top:20px;
+  color:green;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 850px) {
+  .trip {
+    margin: 4rem 2rem;
+  }
+  .tripcard {
+    flex-direction: column;
+    
+  }
+  
+  /* styles.css */
+.enlarged-image {
+  width: 100%;
+  max-height: 300px; /* Adjust the max-height as needed */
+}
+         
+}
+
+/*Booking*/
+.booking-container {
+  display: flex;
+  background-image: url('https://cdn.pixabay.com/photo/2015/08/19/11/46/bridge-895937_640.jpg');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  font-size: 22px;
+  display:flex;
+color:rgb(238, 235, 235);
+  font-weight:bold;
+}
+.left-section {
+  margin-top:100px;
+  width: 105%;
+  padding: 80px;
+  /* Other styles */
+}
+.left-section p{
+  font-size: 20px;
+  color: #edeef0;
+ text-align: justify;
+}
+.right-section {
+  margin-right:60px;
+  width: 100%;
+  display: flex;
+  margin-top:10px;
+  flex-direction: column;
+  align-items: stretch;
+
+}
+
+.transparent-box {
+  background-color:black;
+  padding: 20px;
+   /* Allows the box to grow to fill available space */
+  /* Other styles */
+}
+
+/* Style your form inputs, textareas, buttons, etc. */
+input[type='text'],
+input[type='email'],
+input[type='datetime-local'],
+textarea {
+  width: 100%; 
+  margin-bottom: 15px;
+  /* Other input styles */
+}
+
+
+.read-more {
+  display: inline-block; /* Ensures the link is displayed as a block */
+  padding: 8px 15px; /* Adds padding around the link */
+  border: 2px solid #09ff00; /* Sets border properties */
+  border-radius: 5px; /* Rounds the corners of the border */
+  color: #edeef0; /* Sets link color */
+  text-decoration: none; /* Removes default underline */
+  font-weight: bold; /* Makes text bold */
+   background-color: #09ff00;
+  text-align: center;
+}
+
+
+.form-input {
+  margin-bottom: 15px; /* Add margin-bottom to create space between form inputs */
+  padding: 10px; /* Optional: Add padding for input elements */
+  border-radius: 20px;
+  margin-top: 20px;
+  color: white;
+  border-color:white;
+  background-color: rgb(7, 1, 1); /* Change this to set the background color */
+}
+
+/* Other styles for .booking-container, .left-section, .right-section, .transparent-box, button, etc. */
+
+/* styles.css */
+
+/* Style for the submit button */
+.submit button {
+  background-color: #000000; /* Change this to the desired color */
+  color: rgb(250, 239, 239); /* Text color */
+  border: none; /* Remove button border if needed */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add border radius for a rounded button */
+  cursor: pointer; /* Show pointer cursor on hover */
+  font-size: 18px; 
+  font-weight: bold;/* Adjust font size */
+}
+
+/* Hover effect for the submit button */
+.submit button:hover {
+  background-color: #29b935; /* Change this to the desired hover color */
+}
+.form-input label {
+  color: rgb(247, 247, 253); /* Change this to the desired label color */
+ 
+}
+
+.navigation-links {
+  display: flex;
+  gap: 80px;
+  margin-top: 20px;
+  margin-right:100px; /* Adjust the value as needed */
+}
+
+.booking-link {
+  text-decoration: none;
+  color: #f8f1f1; /* Link color */
+  /* Additional styling for the links if needed */
+}
+
+/*train bookin*/
+/* Styles for SearchPage */
+.searchContainer {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.searchContainer input {
+  display: block;
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.searchContainer button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.searchContainer button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for BookingPage */
+.booking-con {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.form-group{
+  width:79px;
+  border:10px;
+  
+}
+input[type='text'],
+input[type='date'],
+select {
+  width: calc(100% - 18px);
+  padding: 8px;
+  border: 1px solid #ccc;
+ 
+  margin-top: 5px;
+}
+
+select {
+  appearance: none;
+  padding: 8px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.book-ticket-btn {
+  padding: 10px 20px;
+  background-color: #e9ecf0;
+  color: rgb(12, 6, 6);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.book-ticket-btn:hover {
+  background-color: #020305;
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #020303;
+}
+
+a:hover {
+ color:#00ff00;
+}
+/*BusBooking*/
+.bus-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  background-image: url('https://img.freepik.com/premium-vector/bus-city-service-graphic-design-vector-illustration_620585-388.jpg?size=626&ext=jpg&ga=GA1.1.1436844556.1703669489&semt=ais'); /* Replace 'your-background-image-url.jpg' with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.bus-form {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha value to control the background opacity */
+}
+
+.bus-form label,
+.bus-form input,
+.bus-form button {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.bus-form label {
+  font-weight: bold;
+}
+
+.bus-form input[type="text"],
+.bus-form input[type="date"],
+.bus-form input[type="number"],
+.bus-form button[type="submit"] {
+  width: calc(100% - 10px);
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.bus-form button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bus-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+/*flight*/
+.flight-booking-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  height:800px;
+}
+.flight-booking-container h4{
+  color:black;
+  font-size: 30px;
+}
+.flight-booking-container h5{
+  color:black;
+  font-size: 30px;
+}
+.flight-booking-container h2{
+  margin-bottom:40px;
+  color:lime;
+  font-size: 39px;
+  font-weight: bold;
+  bottom:0;
+}
+.flight-booking-container h6{
+  color:black;
+  font-size: 30px;
+margin-bottom:0;
+margin-top: 30px;
+}
+/* Flight.css */
+
+/* Style for the gap between first name and last name */
+.name-gap {
+  margin-right:20px; /* Adjust margin as needed */
+  display: inline-block; /* Ensures elements stay in the same line */
+}
+
+.form-group label,
+.form-group input {
+ display: block;
+  width: 110%;
+  
+  margin-top:30px;
+  margin-bottom: 10px;
+  height:60px;
+  border-radius: 21px;
+}
+.dob-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.dob-container .form-group {
+  flex: 1;
+}
+.flight-booking-form button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.name-container {
+  display: flex;
+  justify-content: space-between; /* Aligns children to the start and end of the container */
+  gap: 10px; /* Adjust the gap between first and last name boxes */
+}
+.form-group {
+  flex: 1;
+}
+
+/* Contact.css */
+
+.contact-page {
+  max-width: 800px;
+  margin: auto;
+}
+
+.main-header {
+  font-size: 40px;
+  margin-bottom:6px;
+  font-weight: bold;
+margin-top: 30px;
+  color:#09ff00;
+  text-align: center;
+ 
+}
+
+.contact-form {
+  /* Adjust the bottom margin to reduce space */
+  width: 600px;
+  height: 700px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+ 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.location{
+  font-size: 20px;
+  margin-left: 30px;
+ 
+}
+.header-contact {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+ 
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background2 {
+  display: flex;
+  
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images.unsplash.com/photo-1676288176918-232f7caadfee?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjYwfHx0cmF2ZWwlMjBjb250YWN0JTIwcGFnZSUyMGltYWdlc2Rhcmt8ZW58MHx8MHx8fDA%3D'); /* Replace 'your-background-image-url.jpg' with your actual image URL */
+  background-size: cover;
+   
+}
+
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: background-color 0.3s ease;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input:hover,
+textarea:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+button {
+  padding: 10px;
+  width:140px;
+height:48px;
+
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:lime;
+}
+
+/*Footer*/
+.traveller h3{
+  font-size: 50px;
+  margin-left: -190px;
+
+margin-top: -30px;
+}
+.traveller li{
+  margin-left: -200px;
+}
+.follow_header h3{
+  margin-left:60px;
+font-weight: bold;
+}
+
+/* BlogPage.css */
+
+.blog-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blog-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.blog-post {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-post-info {
+  padding: 15px;
+}
+
+.blog-post-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.blog-post-info p {
+  margin-bottom: 8px;
+}
+
+.blog-post-info a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.blog-post-info a:hover {
+  background-color: #0056b3;
+}
+/*destination*/
+
